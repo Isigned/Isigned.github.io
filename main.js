@@ -2,10 +2,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'image/秋之列车.jpg') {
-      myImage.setAttribute('src', 'image/回望.jpg');
+    if(mySrc === '秋之列车.jpg') {
+      myImage.setAttribute('src', '回望.jpg');
     } else {
-      myImage.setAttribute('src', 'image/秋之列车.jpg');
+      myImage.setAttribute('src', '秋之列车.jpg');
     }
 }
 
