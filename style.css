@@ -1,42 +1,54 @@
 html {
-    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
-    font-size: 10px;
-    /* Google fonts 输出的 CSS */
-    font-family: 'Noto Sans SC', sans-serif;
-  }
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 10px;
+  /* Google fonts 输出的 CSS */
+  font-family: 'Noto Sans SC', sans-serif;
+}
 
-  h1 {
-    font-size: 60px;
-    text-align: center;
-  }
-  
-  p, li {
-    font-size: 16px;
-    /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
-    line-height: 2;
-    letter-spacing: 1px;
-  }
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: Sans-serif
+}
 
-  html {
-    background-color: #1818E6;
-  }
+p {
+  font-size: 24px;
+  /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: Sans-serif
+}
 
-  body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #FF9500;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-  }
+li {
+  font-size: 20px;
+  /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: Cursive;
+}
 
-  h1 {
-    margin: 0;
-    padding: 20px 0;
-    color: #00539F;
-    text-shadow: 3px 3px 1px black;
-  }
+html {
+  background-color: rgb(0, 90, 171);
+}
 
-  img {
-    display: block;
-    margin: 0 auto;
-  }
+body {
+  width: 1150px;
+  margin: 0 auto;
+  background-color: rgb(225, 222, 0);
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 -25px;
+  padding: -100px 200px 200px 200px;
+}
